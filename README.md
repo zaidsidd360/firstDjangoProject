@@ -1,3 +1,5 @@
 # firstDjangoProject
 
-Currently in developement
+Currently in developement. 
+
+Will be up very soon.
