@@ -3,5 +3,23 @@
 {% block title %}Contact{% endblock title %} 
 
 {% block body %} 
-
+<div class="container mx-auto overflow-hidden">
+    <img src="https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1430&q=80" class="w-100 h-25" alt="">
+    <h1 class="position-absolute top-50 start-50 translate-middle pb-5">Contact Us</h1>
+    <form class="position-absolute top-50 start-50 translate-middle-x d-flex flex-column w-75 bg-white pb-0 p-0 p-md-4 p-lg-5 rounded-5">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Name</label>
+          <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter your name" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Email address</label>
+          <input type="email" class="form-control" placeholder="Enter your email" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Message</label>
+          <input type="text" class="form-control" placeholder="Enter your message here" id="exampleInputPassword1">
+        </div>
+        <button type="submit" class="my-3 btn btn-primary text-center w-50 align-self-center">Submit</button>
+      </form>
+</div>
 {% endblock body %}
