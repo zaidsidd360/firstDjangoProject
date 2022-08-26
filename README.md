@@ -1,4 +1,3 @@
 # firstDjangoProject
 
-Currently in developement. 
 
